@@ -1,17 +1,16 @@
 Global
 :root{
   /*color*/
-  --color-green: #ffffff;
-  --color-light-green: #eeeeee;
-  --color-dark-green: #bdbdbd;
+  --color-green: #2f7035;
+  --color-light-green: #d3ebd5;
+  --color-dark-green: #053309;
   --color-black: #000000;
-  --color-gold: #ff6863;
-  --color-dark-grey: #4d4d4d;
+  --color-gold: #d9c336;
+  --color-dark-grey: #59574b;
   --color-grey: #616161;
-  --color-light-grey: #7c7979;
-  --color-blue: #73aace;
-  --color-yellow: #fff7d1;
-  --color-orange: #feb546;
+  --color-light-grey: ##807f7a;
+
+  
   
   
 
@@ -96,6 +95,7 @@ p{
 }
 .navbar__logo{
   font-size:var(--font-medium);
+ 
 }
 .navbar__menu__item{
   padding: 8px 12px;
