@@ -9,6 +9,8 @@
   --color-dark-grey: #59574b;
   --color-grey: #616161;
   --color-light-grey: ##807f7a;
+  --color-dark-brown:#5d4037;
+
 
   
  /* font-size*/
@@ -48,6 +50,10 @@ ul{
   list-style:none;
   padding-left:0;
 }
+li{
+  list-style:none;
+}
+
 
 h1{
   font-size:var(--font-large);
@@ -79,7 +85,7 @@ p{
 #navbar{
   display:flex;
   justify-content:space-between;
-  background-color:var(--color-dark-green);
+  background-color:var(--color-black);
   color:var(--color-light-green);
   align-items:center;
   padding:16px;
@@ -107,5 +113,33 @@ p{
 }
 .navbar__menu__item:hover{
   background-color:var(--color-gold);
- 
+}
+
+#home{
+  background:url("img/bg.png") center/cover no-repeat;
+  paddiing:20px;
+  text-align:center;
+
+}
+
+
+.home__title,
+.home__description{
+  color:var(--color-light-green);
+}
+
+
+
+button{
+  font-size:var(--font-regular);
+  font-weight:var(--weight-bold);
+  margin:24px;
+  padding:8px 12px;
+  background-color:transparent;
+  color:var(--color-light-green);
+  cursor:pointer;
+  border:none;
+  outline:none;
+  border:2px solid white;
+  border-radius:var(--size-border-radius)
 }
